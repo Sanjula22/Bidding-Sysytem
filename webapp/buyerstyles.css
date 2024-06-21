@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* Define a class for the rectangle */
+.bigrectangle {
+    width: 75%; /* Set the width of the rectangle */
+    height: 1050px; /* Set the height of the rectangle */
+    background-color: #FFFFFF; /* Set the background color */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    border-radius: 10px; /* Add rounded corners */
+    background: linear-gradient(to right, #636363, #a2ab58); /* Customize gradient colors and direction */
+    margin: 50px auto; /* Center the rectangle horizontally */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    background: linear-gradient(to right, #8360c3, #2ebf91); /* Customize gradient colors and direction */
+}
+
+.title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.rec2 {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Vertically align items in rec2 */
+    width: 90%; /* Set the width of the rectangle */
+    height: 350px; /* Set the height of the rectangle */
+    /*background-color: #FFFFFF; /* Set the background color */
+    background: linear-gradient(to right, #2C3E50, #4CA1AF); /* Customize gradient colors and direction */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 50px auto; /* Center the rectangle horizontally */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.rec3 {
+    width: 90%; /* Set the width of the rectangle */
+    height: 200px; /* Set the height of the rectangle */
+    background-color: #FFFFFF; /* Set the background color */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    background: linear-gradient(to right, #2C3E50, #4CA1AF); /* Customize gradient colors and direction */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 50px auto; /* Center the rectangle horizontally */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profilepic {
+    text-align: left;
+    padding: 20px;
+}
+
+
+
+.rec456-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1; /* Allow rec4, rec5, and rec6 to fill the remaining space */
+}
+
+.rec4,
+.rec5,
+.rec6 {
+    width: 90%; /* Set the width of the rectangle to 100% for stacking */
+    height: 40px; /* Set the height of the rectangle */
+    background-color: #FFFFFF; /* Set the background color */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    border-radius: 10px; /* Add rounded corners */
+    margin-bottom: 10px; /* Add space between the rectangles */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 20px;
+}
+
+.profilephoto{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* Style table headers */
+.table th {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style table data cells */
+.table td {
+
+    padding: 8px;
+}
+
+/* Style the table header row */
+.table thead tr {
+   
+    color: #fff;
+}
+
+/* Style the table header cells */
+.table thead th {
+    padding: 10px;
+}
+
+.rec7 {
+    width: 90%; /* Set the width of the rectangle */
+    height: 200px; /* Set the height of the rectangle */
+    background-color: #FFFFFF; /* Set the background color */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    background: linear-gradient(to right, #2C3E50, #4CA1AF); /* Customize gradient colors and direction */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 50px auto; /* Center the rectangle horizontally */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+/* Style the Edit Profile button container */
+.edit-button-container {
+    text-align: right;
+    padding: 20px;
+   
+}
+
+.edit-button-container button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #0f62fa;
+}
+
+.edit-button-container button:hover {
+    background-color: #0c0a8a;
+}

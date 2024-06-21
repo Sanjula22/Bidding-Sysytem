@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* Define a class for the rectangle */
+.bigrectangle {
+    width: 75%; /* Set the width of the rectangle */
+    height: 675px; /* Set the height of the rectangle */
+    background-color: #FFFFFF; /* Set the background color */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    background: linear-gradient(to right, #636363, #a2ab58); /* Customize gradient colors and direction */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 50px auto; /* Center the rectangle horizontally */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    background: linear-gradient(to right, #8360c3, #2ebf91); /* Customize gradient colors and direction */
+}
+
+.h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.rec3 {
+    width: 90%; /* Set the width of the rectangle */
+    height: 500px; /* Set the height of the rectangle */
+    background-color: #FFFFFF; /* Set the background color */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    background: linear-gradient(to right, #2C3E50, #4CA1AF); /* Customize gradient colors and direction */
+    color: white;
+    border-radius: 10px; /* Add rounded corners */
+    margin: 50px auto; /* Center the rectangle horizontally */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+/* Style the labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style the text input */
+input[type="text"],
+input[type="tel"],
+input[type="file"] {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the file input */
+input[type="file"] {
+    cursor: pointer;
+}
+
+.b1 {
+    float: left; /* Align the "Delete account" button to the left */
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #0f62fa;
+    
+}
+.b1:hover{
+    background-color: #0c0a8a;
+}
+
+.b2 {
+    float: right;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #0f62fa;
+    margin-right: 25px;
+}
+
+.b2:hover{
+    background-color: #0c0a8a;
+}
+.form{
+    margin-left: 25px;
+}
+
+#photo{
+    background-color: white;
+    color: black;
+}

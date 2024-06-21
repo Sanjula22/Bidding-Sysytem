@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* Define a class for the rectangle */
+.bigrectangle {
+    width: 75%; /* Set the width of the rectangle */
+    height: 950px; /* Set the height of the rectangle */
+    background-color: #FFFFFF; /* Set the background color */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    background: linear-gradient(to top, #bdc3c7, #2c3e50); /* Customize gradient colors and direction */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 50px auto; /* Center the rectangle horizontally */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    background: linear-gradient(to right, #8360c3, #2ebf91); /* Customize gradient colors and direction */
+}
+
+.title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.rec2 {
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    width: 90%; /* Set the width of the rectangle */
+    height: 750px; /* Set the height of the rectangle */
+    background-color: #FFFFFF; /* Set the background color */
+    border: 2px solid #FFFFFF; /* Set a border with color */
+    background: linear-gradient(to right, #D3CCE3, #E9E4F0); /* Customize gradient colors and direction */
+    border-radius: 10px; /* Add rounded corners */
+    margin: 50px auto; /* Center the rectangle horizontally */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.textbox {
+    width: 300px; /* Set a width for the container */
+    margin: 20px auto; /* Center the container horizontally */
+}
+
+/* Style for each input group */
+.textbox div {
+    margin-bottom: 15px; /* Add some space between input groups */
+}
+
+/* Style for labels */
+.textbox label {
+    display: inline-block;
+    width: 125px; /* Set a width for labels */
+    font-weight: bold;
+}
+
+/* Style for input fields */
+.textbox input {
+    width: 160px; /* Set a width for input fields */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the text input */
+input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the file input */
+input[type="file"] {
+    cursor: pointer;
+}
+
+.b2 {
+    float: right;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #0f62fa;
+}
+
+.b2:hover{
+    background-color: #0c0a8a;
+}
+

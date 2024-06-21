@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* Add your styles here */
+        body {
+            display: flex;
+            justify-content: space-between;
+           background: linear-gradient(to right, #8360c3, #2ebf91);
+        }
+
+        .bidding-container {
+            width: 45%;
+            padding: 20px;
+            color: white;
+        }
+
+        .auction-container {
+            width: 45%;
+            padding: 20px;
+        }
+
+        .auction-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .popup-container1 {
+            position: absolute;
+            top: 40%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(to right, #3E5151, #DECBA4);
+            color: white;
+            width: 300px; /* Adjust the width as needed */
+            height: 100px; /* Adjust the height as needed */
+            
+        }
+
+        .popup-container2 {
+            position: absolute;
+            top: 80%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            background: linear-gradient(to right, #3E5151, #DECBA4);
+            color: white;
+            width: 300px; /* Adjust the width as needed */
+            height: 100px; /* Adjust the height as needed */
+        }
+
+        #calendar {
+            /* Add your calendar styles here */
+        }
+
+        .add-button {
+            position: absolute;
+            top: 50px;
+            right: 40px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+         /* Style for the popup container */
+ .popup-container {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    align-items: center; /* Center items vertically */
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Add margin for spacing between containers and center horizontally */
+    border: 1px solid #ccc; /* Add a border for style */
+    color: black;
+    padding: 20px; /* Add padding for content spacing */
+    background: linear-gradient(to right, #3E5151, #DECBA4);
+}
+
+/* Style for the image */
+.popup-container img {
+    width: 50%; /* Set the width of the image to 50% of the container */
+    margin-right: 20px; /* Add some margin to the right for spacing */
+}
+
+/* Style for the description box */
+.description-box {
+    flex-grow: 1; /* Allow the description box to grow and take remaining space */
+}
+
+/* Style for the button */
+.button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.b1{
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.b2{
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.b3{
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.b4{
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.b5{
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.gradient-box{
+    background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+}
+
+.title{
+    font-size: 35px;
+}
+
+.i1{
+    width: 100x;
+    height: 250px;
+}
